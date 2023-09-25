@@ -1,0 +1,621 @@
+@font-face {
+    font-family: Moonday;
+    src: url(BagnardSans.otf);
+}
+
+* {
+    font-family: Moonday;
+}
+
+body {
+    background: url("E:/Cours/Terminale/NSI/Programmation/KaiLeez/Web/Portfolio/background1.jpg"), center;
+    color: black;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    justify-content: space-between;
+    list-style: none;
+    color: black;
+}
+
+.ptext {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+/*.presentation {
+    border: 1px solid blue;
+}*/
+
+.ptitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    /*align-items: center;*/
+}
+
+.title {
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    color: black;
+}
+
+.contact1:hover {
+    opacity: 40%;
+}
+
+.acc {
+    align-items: left;
+    text-decoration: none;
+    color: black;
+}
+
+.acc:hover {
+    opacity: 40%;
+}
+
+.fa-solid {
+    letter-spacing: 5px;
+}
+
+/*.deb {
+    border: 1px solid blue;
+}*/
+
+.dtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dtext2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.dimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.passion {
+    display: flex;
+    text-align:center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.passion a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+.pa1 {
+  width: 190px;
+  height: 254px;
+  padding: 20px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+
+.pa2 {   
+    width: 190px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.pa3 {
+    color: black;
+    width: 200px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+/*.patext {
+    border: 1px solid green;
+}*/
+
+.palist {
+    list-style: none;
+    text-align: left;
+    width: 100%;
+}
+
+.pares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.line1 {
+    height: 1px;
+}
+
+.line2 {
+    height: 1px;
+}
+
+.line3 {
+    height: 1px;
+}
+
+.line4 {
+    height: 1px;
+}
+
+.programmation {
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.prtitle {
+    text-align: center;
+}
+
+.progalltext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.prtext {
+    font-size: 20px;
+}
+
+.prlist {
+    list-style: none;
+    font-size: 20px;
+}
+
+
+.exptitle {
+    text-align: center;
+}
+
+.exptext1 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.exptext2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
+.exp_sco {
+    padding: 50px;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+}
+
+.exp_pro {
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+}
+
+.exp_assos {
+    padding: 10px;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);   
+}
+
+
+.contacte { 
+    display: flex;
+    /*border: 1px solid blue;*/
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 500px){
+    .exp_pro {
+     padding: 50px;
+     width: 400px;
+     height: 850px;
+     border-radius: 30px;
+     background: #212121;
+     box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                 -15px -15px 30px rgb(60, 60, 60);
+    }
+    .exp_sco {
+        padding: 50px;
+        width: 190px;
+        height: 300px;
+        border-radius: 30px;
+        background: #212121;
+        box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                    -15px -15px 30px rgb(60, 60, 60);
+    }
+    .pa1 {
+        width: 190px;
+        height: 450px;
+        padding: 20px;
+        border-radius: 30px;
+        background: #e0e0e0;
+        box-shadow: 15px 15px 30px #bebebe,
+                   -15px -15px 30px #ffffff;
+      }
+      .pa2 {   
+          width: 190px;
+        height: 370px;
+        padding: 20px;
+        border-radius: 30px;
+        background: #e0e0e0;
+        box-shadow: 15px 15px 30px #bebebe,
+                   -15px -15px 30px #ffffff;
+      }
+      
+      .pa3 {
+          color: black;
+          width: 200px;
+        height: 510px;
+        padding: 20px;
+        border-radius: 30px;
+        background: #e0e0e0;
+        box-shadow: 15px 15px 30px #bebebe,
+                   -15px -15px 30px #ffffff;
+      }
+}
+
+@media only screen and (min-width: 553px){
+    .exp_pro {
+     padding: 50px;
+     width: 400px;
+     height: 900px;
+     border-radius: 30px;
+     background: #212121;
+     box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                 -15px -15px 30px rgb(60, 60, 60);
+    }
+    .exp_sco {
+        padding: 50px;
+        width: 190px;
+        height: 300px;
+        border-radius: 30px;
+        background: #212121;
+        box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                    -15px -15px 30px rgb(60, 60, 60);
+    }
+    .pa1 {
+        width: 190px;
+        height: 365px;
+        padding: 20px;
+        border-radius: 30px;
+        background: #e0e0e0;
+        box-shadow: 15px 15px 30px #bebebe,
+                   -15px -15px 30px #ffffff;
+      }
+      .pa2 {   
+          width: 190px;
+        height: 370px;
+        padding: 20px;
+        border-radius: 30px;
+        background: #e0e0e0;
+        box-shadow: 15px 15px 30px #bebebe,
+                   -15px -15px 30px #ffffff;
+      }
+      
+      .pa3 {
+          color: black;
+          width: 200px;
+        height: 510px;
+        padding: 20px;
+        border-radius: 30px;
+        background: #e0e0e0;
+        box-shadow: 15px 15px 30px #bebebe,
+                   -15px -15px 30px #ffffff;
+      }
+}
+
+@media only screen and (min-width: 650px){
+    .exp_pro {
+     padding: 50px;
+     width: 400px;
+     height: 800px;
+     border-radius: 30px;
+     background: #212121;
+     box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                 -15px -15px 30px rgb(60, 60, 60);
+}
+.pa1 {
+    width: 190px;
+    height: 254px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  
+  .pa2 {   
+      width: 190px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  .pa3 {
+      color: black;
+      width: 200px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+}
+
+@media only screen and (min-width: 680px){
+    .exp_pro {
+     padding: 50px;
+     width: 400px;
+     height: 700px;
+     border-radius: 30px;
+     background: #212121;
+     box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                 -15px -15px 30px rgb(60, 60, 60);
+}
+.exp_sco {
+    padding: 50px;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+}
+.pa1 {
+    width: 190px;
+    height: 254px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  
+  .pa2 {   
+      width: 190px;
+    height: 330px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  .pa3 {
+      color: black;
+      width: 200px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+
+}
+
+@media only screen and (min-width: 740px){
+    .exp_pro {
+     padding: 50px;
+     width: 400px;
+     height: 600px;
+     border-radius: 30px;
+     background: #212121;
+     box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                 -15px -15px 30px rgb(60, 60, 60);
+}
+.pa1 {
+    width: 190px;
+    height: 254px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  
+  .pa2 {   
+      width: 190px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  .pa3 {
+      color: black;
+      width: 200px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+}
+
+@media only screen and (min-width: 820px){
+    .exp_pro {
+     padding: 50px;
+     width: 400px;
+     height: 500px;
+     border-radius: 30px;
+     background: #212121;
+     box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                 -15px -15px 30px rgb(60, 60, 60);
+}
+.pa1 {
+    width: 190px;
+    height: 254px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  
+  .pa2 {   
+      width: 190px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  .pa3 {
+      color: black;
+      width: 200px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+}
+
+@media only screen and (min-width: 900px){
+    .exp_pro {
+     padding: 50px;
+     width: 400px;
+     height: 400px;
+     border-radius: 30px;
+     background: #212121;
+     box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                 -15px -15px 30px rgb(60, 60, 60);
+}
+.pa1 {
+    width: 190px;
+    height: 254px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  
+  .pa2 {   
+      width: 190px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+  
+  .pa3 {
+      color: black;
+      width: 200px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+}
+
+table {
+    table-layout: fixed;
+    width: 50%;
+    height: 50%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    border: medium solid #6495ed;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  td, tr {
+  border: thin solid #6495ed;
+  width: 50%;
+  font-family: monospace;
+  border: thin solid #6495ed;
+  width: 50%;
+  padding: 5px;
+  background-color: #D0E3FA;
+  background-image: url(sky.jpg);
+  }
